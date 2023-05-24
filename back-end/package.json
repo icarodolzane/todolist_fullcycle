@@ -1,0 +1,27 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "Back-end da aplicação Todo List",
+  "main": "./src/api/server.js",
+  "scripts": {
+    "prestart": "npx sequelize-cli db:create && npx sequelize-cli db:migrate",
+    "start": "node .",
+    "dev": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Icaro",
+  "license": "ISC",
+  "dependencies": {
+    "cors-express": "^0.2.2",
+    "express": "^4.12.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.3.2",
+    "sequelize": "^6.31.1",
+    "sequelize-cli": "^6.6.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
