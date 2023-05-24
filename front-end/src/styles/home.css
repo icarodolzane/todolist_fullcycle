@@ -1,0 +1,27 @@
+.page-container {
+  align-items: center;
+  background-color: #1E1E1E;
+  border: 1px solid white;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Epilogue', sans-serif;
+  height: 800px;
+  justify-content: center;
+  width: 80vw;
+}
+
+.separator {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.separator div {
+  background-color: aliceblue;
+  height: 2px;
+  width: 40%;
+}

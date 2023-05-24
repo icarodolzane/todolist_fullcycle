@@ -1,0 +1,25 @@
+.form{
+  height: 40px;
+  width: 80%;
+}
+
+.form label {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  gap: 20px;
+  justify-content: center;
+}
+
+.form input {
+  height: 80%;
+  width: 75%;
+}
+
+.form button {
+  font-weight: bold;
+  font-size: 1rem;
+  height: 80%;
+  width: 20%;
+}
