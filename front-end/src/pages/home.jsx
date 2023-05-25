@@ -1,7 +1,7 @@
 
 import '../styles/home.css';
 import pencil from '../assets/NotePencil.svg';
-import FormBar from '../components/formBar';
+import ItemAdd from '../components/ItemAdd';
 function Home() {
 
   return (
@@ -12,7 +12,7 @@ function Home() {
         <img src={pencil} alt="pencil icon" />
         <div className="line"></div>
       </div>
-      <FormBar/>
+      <ItemAdd/>
     </div>
   )
 }
