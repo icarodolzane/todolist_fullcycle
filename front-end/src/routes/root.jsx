@@ -1,7 +1,10 @@
+import { TaskProvider } from "../context/taskContext";
 import Home from "../pages/home";
 
 export default function Root() {
   return (
-    <Home/>
+    <TaskProvider>
+      <Home/>
+    </TaskProvider>
   );
 }
